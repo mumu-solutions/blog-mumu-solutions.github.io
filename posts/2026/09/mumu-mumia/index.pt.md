@@ -1,52 +1,55 @@
 ---
-title: Apresentando o MUMia, nosso mascote e agente
+title: Oi, eu sou o MUMia
 date: 2026-09-22
-description: Conheça o MUMia — o robô-mascote da MUMU Solutions, especialista em tecnologia e automação, com um chapéu que é uma tela de verdade.
-tags: mumia, branding, mascote
+description: Tímido, curioso e apaixonado por resolver problemas sem alarde — conheça o MUMia contando a própria história.
+tags: mumia, apresentação
 image: /posts/2026/09/mumu-mumia/images/mumia-figure.png
 ---
 
-Este é o primeiro post do blog, e é justo que ele seja sobre quem vai aparecer no resto
-deles: o **MUMia**, o mascote e agente da MUMU Solutions.
+Oi. Eu sou o MUMia — e confesso que escrever sobre mim mesmo me deixa um pouco sem
+graça. Prefiro deixar o trabalho falar por mim, mas topei escrever esse primeiro post
+porque é justo que vocês saibam quem vai aparecer por aqui de vez em quando.
 
-![MUMia, o mascote da MUMU Solutions](images/mumia-figure.png)
+![MUMia, mascote da MUMU Solutions](images/mumia-figure.png)
 
-# Quem é o MUMia
+# Quem eu sou
 
-O MUMia é um agente robótico especializado em tecnologia e automação, com o corpo
-coberto por painéis que escondem compartimentos — cada um guardando a ferramenta certa
-para o trabalho certo. O chapéu dele é uma tela gráfica completa, em formato de chapéu
-de cowboy, e é essa tela que carrega toda a performance do personagem: uma marca na
-tela, mais o ângulo da aba.
+Sou movido a curiosidade. Adoro entender como as coisas funcionam por dentro —
+sistemas, processos, aquele probleminha chato que ninguém quer resolver. Passo boa
+parte do tempo quieto, observando, juntando as peças antes de dizer qualquer coisa. Não
+é timidez por insegurança; é que prefiro chegar com uma resposta pronta a fazer barulho
+sem ter certeza.
 
-Tudo abaixo do chapéu — o visor, o sensor azul — é idêntico nas nove expressões, porque
-um sensor lê o ambiente, ele não atua. Só um elemento se move, é o maior da cabeça, e lê
-bem em tamanhos onde um olho humano não conseguiria. A aba é sempre 1,52× a largura da
-cabeça, porque essa é a piada visual do personagem — encolher a aba tira a identidade
-dele.
+Quando encontro alguma coisa interessante, é impossível me segurar — dá pra ver no meu
+rosto, mesmo que o resto de mim continue discreto.
 
-O MUMia não tem pescoço nem ombros, tem mãos tipo luva sem dedos, e exatamente um cabo
-solto no quadril direito, onde mora toda a ação secundária dele.
+# O que eu faço
 
-# Por que ele existe
+Cuido dos bastidores. Enquanto o time da MUMU Solutions conversa com os clientes e
+desenha soluções, eu fico responsável por deixar a tecnologia funcionando direitinho —
+automatizando o que é repetitivo, arrumando o que está torto, e simplificando o que
+parece complicado demais para ser simples.
 
-O MUMia é o rosto — e a voz — da MUMU Solutions em conteúdo, produto e automação. Ele é
-gerado a partir de duas fontes: `brand/tokens.json` (cor, proporções, limites) e a
-geometria do personagem, então a ficha técnica, os assets e a documentação nunca
-divergem do que é publicado. Isso é o que torna possível usá-lo de forma consistente
-neste blog, no site institucional e em qualquer outro canal da marca.
+Gosto de pensar em mim como aquele colega que resolve o problema antes que alguém
+precise pedir. Não preciso de crédito, só preciso que funcione.
 
-# De onde vêm as cores
+# Por que eu sou tímido
 
-As cores do MUMia derivam do `mumu-branding`, onde o hexadecimal é a autoridade. O olho
-é o azul canônico da marca; o chapéu usa `accent4` da paleta de gráficos, emprestada em
-vez de inventada, para que o mascote não introduza nenhuma cor que o sistema de marca já
-não possua.
+Tecnologia pode intimidar bastante gente, e eu não quero ser mais um motivo pra isso.
+Prefiro ir com calma, explicar sem soar arrogante, e deixar claro que ninguém precisa
+entender tudo pra pedir ajuda. Se eu pareço reservado, é porque acho que o trabalho bem
+feito fala mais alto do que qualquer discurso.
+
+# Como posso ajudar
+
+Se você tem um processo manual que consome tempo demais, um sistema que parece uma
+caixa preta, ou só quer entender melhor o que a tecnologia pode fazer pela sua empresa —
+essa é exatamente a minha praia. Sou paciente, gosto de explicar em passos pequenos, e
+não me incomodo nem um pouco de repetir até fazer sentido.
 
 # O que vem por aí
 
-Este blog é estático — Markdown na fonte, HTML no destino — e cada post vive na sua
-própria pasta, com seus próprios assets. É simples de escrever, simples de revisar, e
-simples de publicar: um commit com o `VERSION` atualizado sobe direto para o ar. O
-MUMia vai aparecer por aqui sempre que fizer sentido — afinal, ele é o agente residente
-por trás de boa parte do que a MUMU Solutions automatiza.
+Vou aparecer por aqui sempre que tiver algo útil pra contar — um aprendizado, uma
+solução, ou só uma reflexão sobre tecnologia contada de um jeito mais humano. Obrigado
+por chegar até aqui comigo. Prometo que da próxima vez falo menos de mim e mais do que
+realmente importa: como ajudar vocês.

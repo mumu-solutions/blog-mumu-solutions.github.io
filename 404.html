@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+  404 — no data-theme on <html>, so with JavaScript off this still renders
+  in the visitor's OS theme instead of forcing dark. Same reasoning as
+  mumu-solutions.github.io/404.html: see that file's comment for why.
+-->
+<html lang="pt-BR" data-language="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; object-src 'none'; form-action 'self'; img-src 'self'; font-src 'self'; style-src 'self'; script-src 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>404 — Página não encontrada · Blog MUMU Solutions</title>
+<meta name="robots" content="noindex, follow">
+<meta name="color-scheme" content="dark light">
+<link rel="icon" href="/images/mumia/favicon.ico" sizes="any">
+<link rel="stylesheet" href="/blog.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-row">
+    <a class="brand" href="/">
+      <img src="/images/mumia/favicon-32x32.png" alt="MUMia" width="28" height="28">
+      <span data-lang="pt" class="on">Blog MUMU Solutions</span>
+      <span data-lang="en">MUMU Solutions Blog</span>
+    </a>
+    <nav class="site-nav">
+      <button type="button" class="icon-btn" id="langBtn" aria-label="Switch to English">PT/EN</button>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <p data-lang="pt" class="on">404</p>
+  <p data-lang="en">404</p>
+  <h1 data-lang="pt" class="on">Página não encontrada</h1>
+  <h1 data-lang="en">Page not found</h1>
+  <p data-lang="pt" class="on">O post ou a página que você procura não existe ou mudou de endereço. <a href="/">Voltar para o blog</a>.</p>
+  <p data-lang="en">The post or page you are looking for does not exist or moved. <a href="/">Back to the blog</a>.</p>
+</main>
+<script src="/blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/* Blog MUMU Solutions — design tokens copied from mumu-solutions.github.io
+   index.html :root blocks, so the blog reads as the same brand. External
+   file on purpose: see .specify/adr/0003-external-css-js-bare-csp.md — a
+   multi-page site cannot maintain a per-page CSP hash the way the single-
+   page site does, so there is no inline <style> here to hash. */
+
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+:root{
+  --bg-body:#07090c;
+  --bg-surface:#0a0d11;
+  --bg-card:#0d1117;
+  --fg:#f0f6fa;
+  --fg-muted:#8f9daa;
+  --primary:#3fa0ef;
+  --primary-fg:#04070b;
+  --border:#1c2530;
+  --radius:.5rem;
+  --maxw:48rem;
+  --pad:1.5rem;
+  --nav-h:4.5rem;
+  --font-sans:Manrope,system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-display:'Space Grotesk',Manrope,system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+html[data-theme="light"]{
+  --bg-body:#f7f9fb;
+  --bg-surface:#ffffff;
+  --bg-card:#ffffff;
+  --fg:#0b1219;
+  --fg-muted:#566372;
+  --primary:#0d6ec2;
+  --primary-fg:#ffffff;
+  --border:#dde3ea;
+  --radius:.5rem;
+  --maxw:48rem;
+  --pad:1.5rem;
+  --nav-h:4.5rem;
+  --font-sans:Manrope,system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-display:'Space Grotesk',Manrope,system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+
+body{
+  background:var(--bg-body);color:var(--fg);
+  font-family:var(--font-sans);font-size:1rem;line-height:1.65;
+}
+h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.15;margin:1.5em 0 .5em}
+h1{font-size:clamp(1.75rem,4vw,2.5rem);margin-top:0}
+a{color:var(--primary)}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 var(--pad)}
+
+.site-header{border-bottom:1px solid var(--border);background:var(--bg-surface)}
+.header-row{display:flex;align-items:center;justify-content:space-between;height:var(--nav-h)}
+.brand{display:flex;align-items:center;gap:.5rem;color:var(--fg);text-decoration:none;font-family:var(--font-display);font-weight:600}
+.site-nav{display:flex;align-items:center;gap:1rem;font-family:var(--font-mono);font-size:.875rem}
+.site-nav a{color:var(--fg-muted);text-decoration:none}
+.site-nav a:hover{color:var(--fg)}
+.icon-btn{
+  background:none;border:1px solid var(--border);border-radius:var(--radius);
+  color:var(--fg-muted);cursor:pointer;padding:.35rem .6rem;font-family:var(--font-mono);font-size:.8rem;
+}
+.icon-btn:hover{color:var(--fg);border-color:var(--fg-muted)}
+
+main.container{padding-top:3rem;padding-bottom:4rem;min-height:60vh}
+
+.site-footer{border-top:1px solid var(--border);color:var(--fg-muted);font-size:.875rem;padding:2rem 0}
+
+/* bilingual toggle: server renders .on on the PT sibling, so the page reads
+   correctly with JavaScript disabled — JS only moves .on on click. */
+[data-lang]{display:none}
+[data-lang].on{display:block}
+span[data-lang]{display:none}
+span[data-lang].on{display:inline}
+
+.post-date{font-family:var(--font-mono);font-size:.8125rem;color:var(--fg-muted)}
+.tag-list{list-style:none;display:flex;gap:.5rem;padding:0;margin:.75rem 0}
+.tag{font-family:var(--font-mono);font-size:.75rem;background:var(--bg-card);border:1px solid var(--border);border-radius:999px;padding:.15rem .65rem;color:var(--fg-muted)}
+.stub-notice{color:var(--fg-muted);font-style:italic;border-left:2px solid var(--border);padding-left:1rem}
+
+article img{max-width:100%;height:auto;border-radius:var(--radius)}
+article pre{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;overflow-x:auto}
+article code{font-family:var(--font-mono);font-size:.875em}
+article blockquote{margin:0;padding-left:1rem;border-left:2px solid var(--primary);color:var(--fg-muted)}
+
+.post-list{list-style:none;padding:0;display:grid;gap:1.25rem}
+.post-card a{display:grid;gap:.25rem;text-decoration:none;color:var(--fg);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem;background:var(--bg-card)}
+.post-card a:hover{border-color:var(--fg-muted)}
+.post-title{font-family:var(--font-display);font-weight:600;font-size:1.25rem}
+.post-desc{color:var(--fg-muted)}

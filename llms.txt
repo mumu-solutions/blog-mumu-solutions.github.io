@@ -1,0 +1,12 @@
+# Blog MUMU Solutions
+
+> Blog estático da MUMU Solutions. Markdown na fonte, HTML no destino, um post por
+> pasta. Bilíngue (pt/en) quando o post tem tradução; a fonte é sempre o português.
+
+## Posts
+
+- [Apresentando o MUMia, nosso mascote e agente](https://blog.mumu.solutions/posts/2026/09/mumu-mumia/): Conheça o MUMia — o robô-mascote da MUMU Solutions, especialista em tecnologia e automação.
+
+## Institutional
+
+- [mumu.solutions](https://mumu.solutions/): institutional site for MUMU Solutions.
